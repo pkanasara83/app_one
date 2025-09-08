@@ -31,9 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
   common_ui:
-    path: ../../packages/common_ui
-  api_service:
-    path: ../../packages/api_service
+    git:
+      url: https://github.com/pkanasara83/app_one.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
